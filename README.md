@@ -6,7 +6,19 @@ It's very tailored and opinionated to my workflow, and as such it will always cr
 
 ## Installation
 
-Download the file, and add it to your `PATH.` On Windows, you'll need to create a Batch alias.
+Download the file, and add it to your `PATH.` 
+
+```shell
+curl -o ptouch https://raw.githubusercontent.com/caendesilva/ptouch/master/ptouch
+chmod +x ptouch
+mv ptouch /usr/local/bin
+```
+
+On Windows, you'll need to create a Batch alias.
+
+```batch
+@php [[FULL PATH TO YOUR SCRIPT]] %*
+```
 
 If you want it to replace the standard `touch` command, change the filename from `ptouch` to `touch`.
 
