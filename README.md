@@ -30,6 +30,8 @@ Run the `ptouch` command, followed by the file(s) you want to create.
 ptouch foo.txt foo/bar.md
 ```
 
+You can also supply `-v` or `--verbose` to get verbose output.
+
 ## License
 
 The MIT License.
