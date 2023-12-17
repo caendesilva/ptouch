@@ -6,7 +6,11 @@ It's very tailored and opinionated to my workflow, and as such it will always cr
 
 ## Installation
 
-Download the file, and add it to your `PATH.` 
+### General
+
+Download the file, and add it to your `PATH`. 
+
+### Unix
 
 ```shell
 curl -o ptouch https://raw.githubusercontent.com/caendesilva/ptouch/master/ptouch
