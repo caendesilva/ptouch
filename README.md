@@ -14,13 +14,22 @@ chmod +x ptouch
 mv ptouch /usr/local/bin
 ```
 
-On Windows, you'll need to create a Batch alias.
+If you want it to replace the standard `touch` command, change the filename from `ptouch` to `touch`.
+
+
+### Windows
+
+On Windows, you'll need to create a Batch alias. Obviously, replace the script path with your own.
 
 ```batch
-@php [[FULL PATH TO YOUR SCRIPT]] %*
+@php C:\Users\User\Documents\WindowsPowerShell\Scripts\ptouch %*
 ```
 
-If you want it to replace the standard `touch` command, change the filename from `ptouch` to `touch`.
+Next, you may want to add an alias to your PowerShell profile.
+
+```powershell
+Set-Alias -Name touch -Value "C:\Users\User\Documents\WindowsPowerShell\Scripts\ptouch.bat"
+```
 
 ## Usage
 
